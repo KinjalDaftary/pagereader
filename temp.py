@@ -8,6 +8,7 @@ import os
 import sys
 
 def convert(filepdf):
+#hhhhhhhhhhhhhhhhhhhhh hhhhhhhhhhhh
     #used to generate temp file name. so we will not duplicate or replace anything
     uuid_set = str(uuid.uuid4().fields[-1])[:5]
     try:
